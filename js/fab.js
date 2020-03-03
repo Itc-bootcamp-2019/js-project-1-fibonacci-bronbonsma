@@ -1,16 +1,16 @@
 function fib(x) {
   let a = 0;
   let b = 1;
-  let y = 0;
+  let result = 0;
   for (let i = 2; i <= x; i++) {
-    y = a + b;
+    result = a + b;
     a = b;
-    b = y;
+    b = result;
   }
-  return y;
+  return result;
 }
 
 function fibfunction() {
   var x = document.getElementById("inputval").value;
   document.getElementById("demo").innerText = fib(x);
-} 
+}
