@@ -10,14 +10,22 @@
 //   return result;
 // }
 
-//  recursive thinking 
+//  recursive thinking
 
-function fib(x){
-    if(x <= 2 ) return 1;
-    return fib(x -1) + fib(x-2);
-}
+// function fib(x){
+//     if (x==0) return 0;
+//     if(x <= 2 ) return 1;
+//     return fib(x -1) + fib(x-2);
+// }
 
 function fibfunction() {
-  var x = document.getElementById("inputval").value;
-  document.getElementById("demo").innerText = fib(x);
+  let x = document.getElementById("inputval").value;
+
+  fetch(`http://localhost:5050/fibonacci/${x}`)
+    .then(resp => resp.json()) // Transform the data into json
+    .then(function(data) {
+      let y = data.result;
+      document.getElementById("demo").innerText = y;
+    //   console.log(y);
+    });
 }

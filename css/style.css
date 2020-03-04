@@ -55,6 +55,9 @@
   color: white;
   font-size: 16px;
 }
+.button:focus {
+  outline-color: none;
+}
 
 .result {
   position: absolute;
@@ -72,3 +75,5 @@
   text-decoration-line: underline;
   color: #373a3c;
 }
+
+
