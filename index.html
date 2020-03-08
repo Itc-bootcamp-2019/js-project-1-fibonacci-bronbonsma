@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fibonacci</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
+
 
 <body>
     <div class="container">
@@ -18,12 +21,16 @@
                 <h1 class="headLine"> Fibonacci Calculator</h1>
             </div>
             <div class="col-md- ">
-                <span class="fibOf "> The Fibonacci Of <input class="inputbutton" type="number" id="inputval" value=" "
+                <span class="fibOf "> The Fibonacci Of <input id="inputval" class="inputbutton " type="number"  value=" "
                         placeholder="#"></span>
                 <button class="button" onclick="fibfunction()">Is</button>
                 <span class="result" id="demo"></span>
-            <div class="col-md">
+                <span id = "redError" class= "errorText"></span>
+                <div id="spinner" class="spinner-border loaded" role="status"></div>
+            </div>
 
+            <div class="col-md">
+                <div id="error" class="redblock gone ">Can't be larger than 50</div>
             </div>
         </div>
     </div>

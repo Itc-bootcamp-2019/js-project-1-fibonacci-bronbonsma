@@ -76,4 +76,68 @@
   color: #373a3c;
 }
 
+/* #loader {
+  position: absolute;
+  left: 525px;
+  top: 240px; */
 
+/* .spinner-border:after {
+  display: hidden;
+  position: absolute;
+  left: 525px;
+  top: 240px;
+} */
+
+.spinner-border {
+  position: absolute;
+  left: 525px;
+  top: 240px;
+}
+
+.loaded {
+  display: none;
+}
+
+.redblock {
+  position: absolute;
+  background: #f2dede;
+  border: 1px solid #ebcccc;
+  border-radius: 4px;
+  position: absolute;
+  width: 181.59px;
+  padding: 4px;
+  height: 33.4px;
+  left: 203.41px;
+  top: 280px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  color: #a94442;
+}
+
+.gone {
+  display: none;
+}
+
+.inputerror {
+  color: #D9534F;
+;
+  border: 1px solid #D9534F;
+  ;
+}
+
+.errorText{
+  color:#D9534F;
+  position: absolute;
+  left: 530px;
+  top: 240px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
