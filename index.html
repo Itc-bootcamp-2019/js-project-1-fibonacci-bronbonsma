@@ -21,19 +21,39 @@
                 <h1 class="headLine"> Fibonacci Calculator</h1>
             </div>
             <div class="col-md- ">
-                <span class="fibOf "> The Fibonacci Of <input id="inputval" class="inputbutton " type="number"  value=" "
+                <span class="fibOf "> The Fibonacci Of <input id="inputval" class="inputbutton " type="number" value=" "
                         placeholder="#"></span>
-                <button class="button" onclick="fibfunction()">Is</button>
+                <button class="button" onclick=" getX()">Is</button>
                 <span class="result" id="demo"></span>
-                <span id = "redError" class= "errorText"></span>
+                <span id="redError" class="errorText"></span>
                 <div id="spinner" class="spinner-border loaded" role="status"></div>
             </div>
 
             <div class="col-md">
                 <div id="error" class="redblock gone ">Can't be larger than 50</div>
             </div>
+
+            <div>
+                <input id = "checkbox" class = "checkbox" type="checkbox" />
+                <span class= "checkText"> Save Calculation</span>
+            </div>
+
+
+            <div class="results">Results
+               
+                  </div> 
+                  <div Id = "loader" class="loader"></div>
+            </div>
+            <!-- <div id="spinner2" class="round" role="status"></div> -->
+
+
+
+            <div id="dataArray" class="history">
+                <p id="content"></p>
+            </div>
         </div>
     </div>
+
     <script type="text/javascript" src="js/fab.js">
     </script>
 </body>
