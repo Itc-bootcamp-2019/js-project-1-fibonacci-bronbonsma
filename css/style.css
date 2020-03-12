@@ -19,7 +19,7 @@
   width: 189px;
   height: 24px;
   left: 169px;
-  top: 236px;
+  top: 220px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -35,7 +35,7 @@
   width: 86px;
   height: 38px;
   left: 200px;
-  top: 0px;
+  top: -5px;
   background: #ffffff;
   border: 1px solid #cccccc;
   box-sizing: border-box;
@@ -47,7 +47,7 @@
   width: 39px;
   height: 38px;
   left: 472px;
-  top: 235px;
+  top: 213px;
   background: #0275d8;
   border: 1px solid #0275d8;
   box-sizing: border-box;
@@ -64,7 +64,7 @@
   width: 28px;
   height: 24px;
   left: 525px;
-  top: 240px;
+  top: 224px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
@@ -76,22 +76,10 @@
   color: #373a3c;
 }
 
-/* #loader {
-  position: absolute;
-  left: 525px;
-  top: 240px; */
-
-/* .spinner-border:after {
-  display: hidden;
-  position: absolute;
-  left: 525px;
-  top: 240px;
-} */
-
 .spinner-border {
   position: absolute;
   left: 525px;
-  top: 240px;
+  top: 218px;
 }
 
 .loaded {
@@ -108,7 +96,7 @@
   padding: 4px;
   height: 33.4px;
   left: 203.41px;
-  top: 280px;
+  top: 267px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
@@ -159,7 +147,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 24px;
-top:400px;
+top:430px;
 left:160px;
 text-decoration: underline;
 color: #373A3C;
@@ -172,7 +160,7 @@ position: absolute;
 width: 182px;
 height: 72px;
 left: 158px;
-top: 330px;
+top: 344px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -204,6 +192,37 @@ color: #373A3C;
 
 
 
-/* .checkbox{
+.checkbox{
 
-} */
+position: absolute;
+width: 122px;
+height: 24px;
+left: 165px;
+top: 303px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: flex-end;
+color: #373A3C;
+
+}
+
+.checkText{
+position: absolute;
+width: 122px;
+height: 24px;
+left: 188px;
+top: 303px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: flex-end;
+color: #373A3C;
+
+}
